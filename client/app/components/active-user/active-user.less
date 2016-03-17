@@ -1,0 +1,97 @@
+.active-users {
+	@blue:#698EBF;
+	@line:#DDDDDD;
+	@small:12px;
+
+	position: absolute;
+	top:100px;
+	left:15%;
+	width:42%;
+	height:240px;
+
+	border-top:1px solid @line;
+
+	> .header {
+		position:absolute;
+		top:5%;
+		height:15%;
+		width:100%;
+		text-align:center;
+		> span {
+			color:@blue;
+			font-size:@small;
+		}
+	}
+
+	> .content {
+		position:absolute;
+		top:20%;
+		left:0;
+		width:100%;
+		height:80%;
+		border-top:1px solid @line;
+		border-left:1px solid @line;
+		border-bottom:1px solid @line;
+
+		> .user-info {
+			position:absolute;
+			top:0;
+			left:0;
+			height:100%;
+			width:33.3%;
+			border-right:1px solid @line;
+			font-size:@small;
+			
+			> .user-main {
+				position:absolute;
+				top:10%;
+				left:10%;
+				height:50%;
+				width:80%;
+				padding:5px;
+				> img {
+					position:absolute;
+					top:0;
+					left:0;
+				}
+				
+				> .user {
+					position:absolute;
+					left:30%;
+					top:0;
+
+					> span {
+						display:block;
+					}
+
+					> #username {
+						font-weight:bold;
+						color:@blue;
+					}
+				}
+				> .motto {
+					position:absolute;
+					top:60%;
+				}
+				border-bottom:1px solid @line;
+			}
+
+			> .field {
+				position:absolute;
+				top:70%;
+				left:10%;
+				width:80%;
+			}
+
+			> span {
+				display:block;
+				position:absolute;
+				right:10%;
+				bottom:5%;
+				border-radius:2px;
+				width:30%;
+				text-align:center;
+			}
+		}
+	}
+}
