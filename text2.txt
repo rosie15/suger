@@ -1,2 +1,0 @@
-hello
-it is added from branch b
