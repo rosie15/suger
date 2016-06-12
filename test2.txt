@@ -1,5 +1,0 @@
-This is the second test file created at master branch
-
-modified
-
-modified +1
