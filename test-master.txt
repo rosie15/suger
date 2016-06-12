@@ -1,3 +1,0 @@
-This file is created at the master dev
-
-This is the content I added from the dev branch
